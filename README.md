@@ -33,20 +33,13 @@
 
 # 📖 Awesome Books<a name="about-project"></a>
 
-> This project is to add a book with it's title and aurthor to local storage
+> This project is to add and remove books with JavaScript ES6 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > HTML, CSS and Javascript
 
-
-### Key Features <a name="key-features"></a>
-
-- **[Local Storage]**
-- **[Dynamic display of books using JS]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -70,7 +63,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mosidrum/Awesome_books.git
+  git clone git@github.com:mosidrum/Awesome-books-ES6.git
 ```
 
 ### Usage
@@ -87,14 +80,9 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [mosidrum](https://github.com/mosidrum)
-
-👤 **Author2**
-
-- GitHub: [Duretitibesso3](https://github.com/Duretitibesso3)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,9 +91,10 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Js Classes]**
 - [ ] **[Navigation ]**
 - [ ] **[Media Responsiveness]**
+- [ ] **[Javascript Es6]**
+- [ ] **[Javascript Modules]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +105,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mosidrum/Awesome_books/issues).
+Feel free to check the [issues page](https://github.com/mosidrum/Awesome-books-ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
