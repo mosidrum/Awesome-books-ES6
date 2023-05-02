@@ -7,8 +7,8 @@ const Nav = () => {
     }
   });
 
-  const date = document.querySelector('.date');
-  date.innerHTML = Date();
+  // const date = document.querySelector('.date');
+  // date.innerHTML = Date();
 };
 
 export default Nav;

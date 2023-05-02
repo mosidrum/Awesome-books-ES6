@@ -51,8 +51,9 @@
   <script src="../js/nav.js"></script>
   <script src="luxon.min.js"></script>
   <script>
+    //Trying luxon as a script here
     let DateTime = luxon.DateTime;
-    let now = DateTime.local();
+    let now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
     const showDate = document.querySelector('.date');
     showDate.innerHTML = now; 
   </script>
