@@ -2,6 +2,9 @@ import { Book } from "./modules/Book.js";
 import Nav from "./modules/Nav.js";
 import { UI } from "./modules/UI.js";
 import { Store } from "./modules/store.js";
+import {Date} from "./modules/Luxon.js"
+
+
 
 
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
@@ -26,4 +29,7 @@ document.querySelector('.container').addEventListener('click', (e) => {
 });
 
 Nav();
+Date();
+
+const contact = document.querySelector
 
