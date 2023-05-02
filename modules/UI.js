@@ -1,4 +1,5 @@
-import { Store } from "./store.js";
+/* eslint-disable import/prefer-default-export */
+import { Store } from './store.js';
 
 export class UI {
   static displayBooks() {

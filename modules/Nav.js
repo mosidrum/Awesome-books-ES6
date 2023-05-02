@@ -9,6 +9,6 @@ const Nav = () => {
 
   const date = document.querySelector('.date');
   date.innerHTML = Date();
-}
+};
 
-export default Nav
+export default Nav;
