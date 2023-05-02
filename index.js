@@ -25,8 +25,8 @@ document.querySelector('.container').addEventListener('click', (e) => {
   Store.removeBook(e.target.previousElementSibling.textContent);
 });
 
-//Trying luxon as a module here
-const showDate = document.querySelector('.date')
+// Trying luxon as a module here
+const showDate = document.querySelector('.date');
 const date = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 showDate.innerHTML = date;
 
