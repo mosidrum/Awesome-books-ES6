@@ -6,5 +6,5 @@ navlinks.forEach((link) => {
   }
 });
 
-const date = document.querySelector('.date');
-date.innerHTML = Date();
+// const date = document.querySelector('.date');
+// date.innerHTML = Date();

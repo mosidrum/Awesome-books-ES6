@@ -25,7 +25,7 @@
       </ul>
     </div>
   </nav>
-  <p class="date">Date</p>
+  <p class="date"></p>
   <div class="main">
     <h1>Contact Information</h1>
     <div class=" contact-container">
@@ -49,6 +49,13 @@
       <p>Ayodele Isaac</p>
     </footer>
   <script src="../js/nav.js"></script>
+  <script src="luxon.min.js"></script>
+  <script>
+    let DateTime = luxon.DateTime;
+    let now = DateTime.local();
+    const showDate = document.querySelector('.date');
+    showDate.innerHTML = now; 
+  </script>
   <script type="module" src="../index.js"></script>>
   </body>
 </html>
