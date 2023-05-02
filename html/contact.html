@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/nav.css">
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
   <title>Awesome Book</title>
+
 </head>
 <body>
   <nav>
@@ -23,7 +25,7 @@
       </ul>
     </div>
   </nav>
-  <p class="date">Date</p>
+  <p class="date"></p>
   <div class="main">
     <h1>Contact Information</h1>
     <div class=" contact-container">
@@ -47,6 +49,14 @@
       <p>Ayodele Isaac</p>
     </footer>
   <script src="../js/nav.js"></script>
+  <script src="luxon.min.js"></script>
+  <script>
+    //Trying luxon as a script here
+    let DateTime = luxon.DateTime;
+    let now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+    const showDate = document.querySelector('.date');
+    showDate.innerHTML = now; 
+  </script>
   <script type="module" src="../index.js"></script>>
   </body>
 </html>
