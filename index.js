@@ -2,7 +2,7 @@ import { Book } from './modules/Book.js';
 import Nav from './modules/Nav.js';
 import { UI } from './modules/UI.js';
 import { Date } from './modules/Luxon.js';
-import { Store } from './modules/store.js';
+import { Store } from './modules/Store.js';
 
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 

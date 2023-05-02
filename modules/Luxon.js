@@ -5,4 +5,4 @@ export const Date = () => {
   const now = DateTime.local();
   const showDate = document.querySelector('.date');
   showDate.textContent = now;
-}
+};
